@@ -3,9 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fill: (theme) => ({
+      red: theme("colors.red.600"),
+    }),
   },
   variants: {
-    extend: {},
+    extend: {
+      visibility: ["group-hover"],
+      display: ["group-hover"],
+    },
   },
   plugins: [],
 };

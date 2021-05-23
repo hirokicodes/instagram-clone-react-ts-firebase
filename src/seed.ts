@@ -72,4 +72,4 @@ export function seedDatabase(firebase: typeof Firebase) {
   }
 }
 
-seedDatabase(Firebase);
+// seedDatabase(Firebase);
